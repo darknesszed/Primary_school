@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="horizontal"
+    android:background="@drawable/shouyegridbg"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:columnCount="2"
+   >
+
+    <LinearLayout
+        android:background="@drawable/shouyelinerbg"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        >
+        <com.example.primary_school.circleimageview.RadiuImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image_viedo1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/dlrb"
+            android:scaleType="centerCrop"
+            app:radius="10dp"/>
+
+
+        <TextView
+            android:id="@+id/text_videotitle1"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="同步语文"
+            android:textColor="@color/black"
+            android:textSize="14dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:id="@+id/text_videonum1"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="视频·2000次播放 "
+                android:textColor="#cccfff"
+                android:textSize="10dp"/>
+            <ImageButton
+                android:layout_marginRight="8dp"
+                android:background="@drawable/snagedian"
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/shouyelinerbg"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        >
+        <com.example.primary_school.circleimageview.RadiuImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image_viedo2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/dlrb"
+            android:scaleType="centerCrop"
+            app:radius="10dp"/>
+
+        <TextView
+            android:id="@+id/text_videotitle2"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="同步数学"
+            android:textColor="@color/black"
+            android:textSize="14dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:id="@+id/text_videonum2"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="视频·2000次播放 "
+                android:textColor="#cccfff"
+                android:textSize="10dp"/>
+            <ImageButton
+                android:layout_marginRight="8dp"
+                android:background="@drawable/snagedian"
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</GridLayout>

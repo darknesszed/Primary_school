@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AutoCompleteTextView.Main3Activity">
+    <AutoCompleteTextView
+        android:id="@+id/auto_seekTips"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:completionThreshold="1"
+        android:drawableLeft="@drawable/ic_assignment_ind_blue_24dp"
+        android:dropDownWidth="match_parent"
+        android:dropDownVerticalOffset="10dp"
+        android:hint="请输入城市名称"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLength="20"
+        android:paddingLeft="15dp"
+        android:textSize="15sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainactivity3_recycview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

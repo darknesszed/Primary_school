@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_height="230dp"
+    android:background="@drawable/shape0"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="10dp"
+       >
+        <com.example.primary_school.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circleImageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/dlrb"
+            app:border_width="2dp"
+            app:border_color="@color/white"
+            />
+        <ImageView
+            android:id="@+id/quxiao"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/quxiao"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_first"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="一年级"
+            android:background="@drawable/shape1"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_two"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="二年级"
+            android:background="@drawable/shape1"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_three"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="三年级"
+            android:background="@drawable/shape1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_four"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="四年级"
+            android:background="@drawable/shape1"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_five"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="五年级"
+            android:background="@drawable/shape1"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_six"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="六年级"
+            android:background="@drawable/shape1"
+            />
+    </LinearLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/queding"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/queren"
+            android:visibility="invisible"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

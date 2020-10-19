@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Framgment.shouyechildactivity.JiaoZiVideoPlayerActivity">
+    <com.example.primary_school.Framgment.shouyechildactivity.MyJzvdStd
+        android:id="@+id/jiaozi_videoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+</LinearLayout>

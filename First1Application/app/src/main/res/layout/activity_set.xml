@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tittle"
+        android:background="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="190dp"
+        android:paddingTop="15dp"
+        android:text="设置"
+
+        android:textStyle="bold"
+
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/tittle1"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/tittle"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:textStyle="bold"
+
+        android:drawableRight="@mipmap/a"
+        android:text="账号管理" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tittle1"
+
+        android:background="#F0F0F0" />
+
+
+    <TextView
+        android:id="@+id/tittle2"
+        android:background="#FFFFFF"
+        android:layout_below="@id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:textStyle="bold"
+        android:text="手机号码"
+        android:drawableRight="@mipmap/c"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tittle2"
+
+        android:background="#F0F0F0"/>
+
+    <TextView
+        android:id="@+id/tittle3"
+        android:background="#FFFFFF"
+        android:layout_below="@id/view2"
+        android:textStyle="bold"
+        android:text="账号安全"
+        android:drawableRight="@mipmap/d"
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:layout_height="56dp"
+        />
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tittle3"
+
+        android:background="#F0F0F0"/>
+    <TextView
+        android:id="@+id/tittle4"
+        android:background="#FFFFFF"
+        android:layout_below="@id/view3"
+        android:textStyle="bold"
+        android:text="QQ达人"
+        android:drawableRight="@mipmap/b"
+
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:layout_height="56dp"
+        />
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tittle4"
+
+        android:background="#F0F0F0"/>
+    <TextView
+        android:id="@+id/tittle5"
+        android:background="#FFFFFF"
+        android:layout_below="@id/tittle4"
+        android:textStyle="bold"
+        android:text="消息通知"
+        android:drawableRight="@mipmap/d"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:layout_height="56dp"
+        />
+    <View
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tittle5"
+
+        android:background="#F0F0F0"/>
+    <TextView
+        android:id="@+id/tittle6"
+        android:background="#FFFFFF"
+        android:layout_below="@id/view5"
+        android:textStyle="bold"
+        android:text="隐私"
+        android:drawableRight="@mipmap/d"
+
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:layout_height="56dp"
+        />
+    <View
+        android:id="@+id/view6"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tittle6"
+
+        android:background="#F0F0F0"/>
+    <TextView
+        android:id="@+id/tittle7"
+        android:background="#FFFFFF"
+        android:layout_below="@id/view6"
+        android:textStyle="bold"
+        android:text="通用"
+        android:drawableRight="@mipmap/d"
+
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:layout_height="56dp"
+        />
+    <View
+        android:id="@+id/view7"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tittle7"
+
+        android:background="#F0F0F0"/>
+    <Button
+        android:id="@+id/tittle8"
+        android:background="#FFFFFF"
+        android:layout_below="@id/view7"
+
+        android:text="关于QQ与帮助"
+        android:drawableRight="@mipmap/d"
+
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:layout_height="56dp"
+        />
+
+    <Button
+        android:id="@+id/tittle9"
+        android:background="#FFFFFF"
+        android:layout_below="@id/tittle8"
+
+        android:text="主页面"
+        android:drawableRight="@mipmap/d"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="18dp"
+        android:layout_height="56dp"
+        />
+
+
+
+</RelativeLayout>

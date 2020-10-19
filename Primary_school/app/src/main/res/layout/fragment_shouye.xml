@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/smartrefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/text1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:textSize="20dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linear"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="85dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="@drawable/shape5">-->
+
+<!--                    <ImageButton-->
+<!--                        android:id="@+id/btn_diji"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@null" />-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <com.example.primary_school.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--                            android:id="@+id/circleImageView"-->
+<!--                            android:layout_width="35dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_centerHorizontal="true"-->
+<!--                            android:src="@drawable/dlrb"-->
+<!--                            app:border_color="@color/white"-->
+<!--                            app:border_width="1dp" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/grade_text"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="一年级"-->
+<!--                            android:textSize="12sp" />-->
+<!--                    </LinearLayout>-->
+
+<!--                </RelativeLayout>-->
+<!--                <TextView-->
+<!--                    android:id="@+id/edt_search"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="12dp"-->
+<!--                    android:layout_marginRight="12dp"-->
+<!--                    android:background="@drawable/et"-->
+<!--                    android:drawableLeft="@drawable/sousuo1"-->
+<!--                    android:drawableRight="@drawable/yuyin"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:hint="四大名著"-->
+<!--                    android:lines="1"-->
+<!--                    android:paddingLeft="12dp"-->
+<!--                    android:paddingRight="12dp"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textColorHint="#8A7878" />-->
+<!--            </LinearLayout>-->
+
+<!--        </RelativeLayout>-->
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroundcolor"
+                android:fitsSystemWindows="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f0f8ff"
+                    android:orientation="vertical"
+                    app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/backgroud"
+                        android:columnCount="3"
+                        android:orientation="horizontal"
+                        android:rowCount="2">
+
+                        <TextView
+                            android:layout_height="30dp"
+                            android:layout_row="0"
+                            android:layout_column="0"
+                            android:layout_columnSpan="2"
+                            android:layout_gravity="fill"
+                            android:drawableLeft="@drawable/aixin"
+                            android:gravity="center_vertical"
+                            android:text="同步教辅"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_height="30dp"
+                            android:layout_row="0"
+                            android:layout_column="1"
+                            android:layout_columnSpan="2"
+                            android:layout_columnWeight="1"
+                            android:layout_gravity="fill"
+                            android:gravity="center_vertical"
+                            android:hint="同步才能走出第一步"
+                            android:paddingTop="4dp"
+                            android:textSize="14dp" />
+
+
+                        <Button
+                            android:id="@+id/tongbu_btn1"
+                            android:layout_height="100dp"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/yuwenbg"
+                            android:drawableTop="@drawable/yuwen"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:text="同步语文"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/tongbu_btn2"
+                            android:layout_height="100dp"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/shuxuebg"
+                            android:drawableTop="@drawable/shuxue"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:text="同步数学"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/tongbu_btn3"
+                            android:layout_height="100dp"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/englishbg"
+                            android:drawableTop="@drawable/english"
+                            android:gravity="center"
+                            android:paddingLeft="2dp"
+                            android:text="同步英语"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+                    </GridLayout>
+
+                    <com.youth.banner.Banner xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:custom="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:background="@drawable/backgroundimg"
+                        custom:indicator_height="6dp"
+                        custom:indicator_width="6dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/backgroud">
+
+                        <LinearLayout
+                            android:id="@+id/linear2"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:drawableLeft="@drawable/aixin"
+                                android:gravity="center_vertical"
+                                android:text="实用小工具"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:hint="小工具在手，问题不再有"
+                                android:paddingLeft="5dp"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                        <GridLayout
+                            android:id="@+id/gridLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_below="@+id/linear2"
+                            android:layout_gravity="center"
+                            android:columnCount="4">
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn1"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/paizhaosouti" />
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn2"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/jisuanqi" />
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn3"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/dancichaxun" />
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn4"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/yuwenzuowen" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="拍照搜题"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="计算器"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="单词查询"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="语文作文"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn5"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/guwenzhushou" />
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn6"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/yingyuzuowen1" />
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn7"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/cidian1" />
+
+                            <ImageButton
+                                android:id="@+id/sygj_btn8"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/shiyonggongjubg"
+                                android:src="@drawable/xinsuanlianxi" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="古文助手"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="英语作文"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="汉语词典"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:gravity="center"
+                                android:text="心算练习"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </GridLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <!--这是一个不会动的标题栏-->
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tablayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabGravity="fill"
+                    app:tabIndicatorColor="@color/colorAccent"
+                    app:tabMode="scrollable"
+                    app:tabSelectedTextColor="@color/colorAccent"
+                    app:tabTextColor="#0A0A0A">
+
+                </com.google.android.material.tabs.TabLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+
+            <!--下边就是滑动的不聚了，要与上边的布局相关联，必须要有 app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+            <!--这样才能实现折叠的效果-->
+            <!--下方的滑动，可以用RecycleView，但是ListView是不好使的，你可以嵌套在NestedScrollView总试试-->
+            <!--因为ViewPager就需要嵌套在其中才能实现。-->
+            <!--这里还有一个坑，在外层必须要添加android:fillViewport="true"这个标签，让Viewpager填充，不然Viewpager会没有内容-->
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:overScrollMode="always"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpage_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    >
+
+                </androidx.viewpager.widget.ViewPager>
+
+
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+<!--        <item name="colorPrimaryDark">@color/btn_main_d</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--控件按压时的色调-->
+        <item name="android:colorControlHighlight">@color/lightskyblue</item>
+        <!--与上面相同。即上一个设置了退出动画，这个设置了进入动画，两者是否同时执行。-->
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_green_dark</item>
+        <item name="colorPrimaryDark">#00000000</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyMinDialogWidth" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">70%</item>
+<!--        //Theme.AppCompat.Dialog主题常用的一般有以下属性：-->
+
+        <!-- 背景透明 -->
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!-- 边框 -->
+
+        <item name="android:windowFrame">@null</item>
+
+        <!-- 是否浮现在activity之上 -->
+
+        <item name="android:windowIsFloating">true</item>
+
+        <!-- 是否半透明 -->
+
+        <item name="android:windowIsTranslucent">true</item>
+
+        <!-- 是否无标题 -->
+
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Dialog背景样式 -->
+
+<!--        <item name="android:background">@android:color/transparent</item>-->
+
+        <!-- 模糊 -->
+
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <!-- 遮罩层 -->
+
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:alertDialogTheme">@style/MyMinDialogWidth</item>
+        <item name="android:dialogTheme">@style/MyMinDialogWidth</item>
+    </style>
+
+<!--    <style name="dialog_animtion_style">-->
+<!--        <item name="android:windowEnterAnimation">@anim/dialog_show_anim</item>-->
+<!--        <item name="android:windowExitAnimation">@anim/dialog_miss_anim</item>-->
+<!--    </style>-->
+    <style name="NoticeDialogStyle" parent="android:Theme.Holo.Light.Dialog">
+        <!-- 是否无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+
+        <!-- 边框 -->
+
+        <item name="android:windowFrame">@null</item>
+
+        <!-- 是否浮现在activity之上 -->
+
+        <item name="android:windowIsFloating">true</item>
+
+        <!-- 是否半透明 -->
+
+        <item name="android:windowIsTranslucent">true</item>
+
+
+
+
+
+    </style>
+
+
+</resources>

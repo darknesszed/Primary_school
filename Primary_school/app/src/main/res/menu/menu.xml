@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+
+        android:id="@+id/first_grade1"
+        android:title="一年级上"
+        android:icon="@drawable/student">
+    </item>
+    <item
+        android:id="@+id/first_grade2"
+        android:title="一年级下"
+        android:icon="@drawable/student">
+    </item>
+    <item android:id="@+id/two_grade1"
+        android:title="二年级上"
+        android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/two_grade2"
+        android:title="二年级下"
+        android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/three_grade1"
+          android:title="三年级上"
+          android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/three_grade2"
+        android:title="三年级下"
+        android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/four_grade1"
+          android:title="四年级上"
+        android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/four_grade2"
+        android:title="四年级下"
+        android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/five_grade1"
+          android:title="五年级上"
+        android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/five_grade2"
+        android:title="五年级下"
+        android:icon="@drawable/student">
+
+    </item>
+    <item android:id="@+id/six_grade1"
+          android:title="六年级上"
+          android:icon="@drawable/student"
+          >
+
+    </item>
+    <item android:id="@+id/six_grade2"
+        android:title="六年级下"
+        android:icon="@drawable/student">
+
+    </item>
+
+</menu>

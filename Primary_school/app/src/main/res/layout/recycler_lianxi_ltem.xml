@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/backgroud"
+    android:layout_margin="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/text_danyuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="第一单元"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/text_biaoti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="一、四则运算"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/text_datinum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="暂未练习"
+                android:textColor="#4E4D4D"/>
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/relative_datijieyu"
+                android:background="@drawable/shape5"
+                android:layout_width="220dp"
+                android:layout_height="30dp">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:id="@+id/image_biaoqing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/biaoqing_kaixin"/>
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/image_biaoqing"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/text_dtjieyu"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:gravity="center|left"
+                    android:text=" 还不错哟！还可以更好^-^"
+                    android:textColor="#4E4D4D"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnn_lianxi"
+            android:layout_marginRight="15dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_lianxi"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="去练习"
+            android:textColor="	#00BFFF"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
